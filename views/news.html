@@ -5,10 +5,46 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/universal.css" />
     <link rel="stylesheet" type="text/css" href="stylesheets/navbar.css" />
     <link rel="stylesheet" type="text/css" href="stylesheets/footer.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/news.css" />
   </head>
   <body>
     <%- include components/navbar-modal.html%>
     <%- include components/navbar.html %>
+    <div class="main-container">
+      <img class="featured-image" src="images/music-score-1024.png" />
+      <div class="main-content-container">
+        <section class="featured-post">
+          <h3 class="featured-post-title">Composition Residency</h3>
+          <article class="featured-post-preview">Artollo will be teaching courses in musical composition, musical theory, and lyrical expression this upcoming fall at Monroe University. We cannot begin to express how excited we are to learn with the students and faculty at Monroe.</article>
+          <button class="featured-button clear-button">Continue Reading</button>
+        </section>
+        <div class="posts">
+          <section class="post post-left">
+            <img src="images/vinyl-1024.png" class="post-image"/>
+            <h3 class="post-title">
+              For the Love of Vinyl
+            </h3>
+            <article class="post-preview">
+              There was a time when people like you and me would sit around a speaker and experience music together.
+            </article>
+            <button class="post-button clear-button">continue reading</button>
+          </section>
+          <section class="post post-right">
+            <img src="images/vinyl-1024.png" class="post-image"/>
+            <h3 class="post-title">
+              Creativity Master Class
+            </h3>
+            <article class="post-preview">
+              How do you get inspired? How should you seek inspiration? Where does discipline factor in? Let's find out.
+            </article>
+            <button class="post-button clear-button">continue reading</button>
+          </section>
+        </div>
+        <button class="clear-button more-button">
+          <span class="more-button-text">more</span>  
+        </button>
+      </div>
+    </div>
     <%- include components/footer.html %>
   </body>
 </html>

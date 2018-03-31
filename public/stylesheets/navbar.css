@@ -8,6 +8,8 @@ nav{
     top: 0px;
     position: sticky;
     z-index: 5;
+    border-bottom: solid 2px #012e08;
+
 }
 
 li{
