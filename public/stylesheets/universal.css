@@ -170,6 +170,12 @@ h1, h2, h3, h4, h5, h6, ul, li{
   padding:0px;
 }
 
+.clear-button{
+  background:none;
+  outline:none;
+  border:none;
+}
+
 .color-black-1{
   color:#1c1c1c;
 }

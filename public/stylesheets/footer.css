@@ -6,6 +6,41 @@ footer{
   height:90px;
   padding-left:30px;
   padding-right:30px;
+  margin:auto;
+}
+
+.footer-site-title{
+  font-family: ibm plex mono;
+  float: left;
+  font-weight: 300;
+  font-size: 45px;
+  top:15px;
+  position:relative;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.social-icon-container{
+  float: left;
+  position: relative;
+  top: 5px;
+}
+
+.social-icon{
+  width:30px;
+  margin-right:15px;
+}
+
+.right-side-container{
+  float:right;
+}
+
+.footer-button{
+  float: left;
+  font-family: dosis;
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: capitalize;
 }
 
 @media (min-width:320px){
@@ -25,7 +60,7 @@ footer{
 }
 @media (min-width:992px){
   .footer{
-    width:992px;
+    width:964px;
   }  
 }
 

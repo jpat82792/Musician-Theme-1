@@ -51,20 +51,20 @@ li{
 
 @media (min-width:320px){
   .navbar-content{
-    width: 320px;  
+    width: 260px;  
   }
 }
 @media (min-width:480px){
   .navbar-content{
-    width: 480px;  
+    width: 420px;  
   }
 }
 @media (min-width:768px){
   .navbar-content{
-    width: 768px;  
+    width: 708px;  
   }
 }
 @media (min-width:1024px){
 .navbar-content{
-  width: 1024px;  
+  width: 964px;  
 }
