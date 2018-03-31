@@ -66,6 +66,7 @@
   margin-top:15px;
 }
 
+
 @media (min-width:320px){
   .bio-title{
     font-size:60px;
@@ -109,18 +110,17 @@
   }
 }
 @media (min-width:1024px){
-.artist-image-right{
-  width:467px;
-}
+  .artist-image-right{
+    width:467px;
+  }
 
-.artist-image{
-  width:467px;
-}
-.artist-information{
-  width:467px;
-}
-.artist-information-left{
-  width:467px;
-
-}
+  .artist-image{
+    width:467px;
+  }
+  .artist-information{
+    width:467px;
+  }
+  .artist-information-left{
+    width:467px;
+  }
 }

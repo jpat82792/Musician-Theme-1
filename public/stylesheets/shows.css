@@ -1,0 +1,75 @@
+.shows-title{
+  text-align: center;
+  font-family: ibm plex mono;
+  font-style: italic;
+  font-size: 100px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+.show-table{
+  width:100%;
+  border-collapse: collapse;
+}
+.row{
+  width:100%;
+}
+
+.table-header{
+    text-align: center;
+    border-bottom: 2px solid #012e08;
+    font-family: ibm plex mono;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 30px;
+}
+.data-cell{
+    text-align: center;
+    font-size: 20px;
+    font-family: dosis;
+    font-weight: 400;
+    padding:5px;
+}
+
+.tickets-column{
+  text-transform:uppercase;
+}
+
+
+footer {
+  background-color: #e2e2e2;
+  float: left;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+@media (min-width:320px){
+.show-table{
+    width: 100%;
+    border-collapse: collapse;
+    position: absolute;
+    left: 0%;
+  }
+  .table-header{
+    font-size:20px;
+  }
+}
+
+@media (min-width:480px){
+.show-table{
+  width:100%;
+  border-collapse: collapse;
+  position:relative;
+}
+
+}
+
+@media(min-width:768px){
+  .table-header{
+    font-size:30px;
+  }
+}
+
+@media(min-width:1024px){
+
+}

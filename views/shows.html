@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/universal.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/footer.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/shows.css" />
+  </head>
+  <body>
+    <%- include components/navbar-modal.html%>
+    <%- include components/navbar.html %>
+    <div class="main-container">
+      <div class="main-content-container">
+        <h1 class="shows-title">Shows</h1>
+        <table class="show-table">
+          <tr class="row">
+            <th class="table-header">Date</th>
+            <th class="table-header">Venue/Event</th>
+            <th class="table-header">Location</th>
+            <th class="table-header">Tickets</th>
+          </tr>
+          <tr>
+            <td class="data-cell">04.18.18</td>
+            <td class="data-cell">Glade Area</td>
+            <td class="data-cell">Glastonbury</td>
+            <td class="data-cell tickets">sold out</td>
+          </tr>
+          <tr>
+            <td class="data-cell">5.27.18</td>
+            <td class="data-cell">Hampden Park</td>
+            <td class="data-cell">Glasgow</td>
+            <td class="data-cell tickets">tickets</td>
+          </tr>
+          <tr>
+            <td class="data-cell">06.12.18</td>
+            <td class="data-cell">Orpheum Theatre</td>
+            <td class="data-cell">Waco, TX</td>
+            <td class="data-cell tickets">tickets</td>
+          </tr>
+          <tr>
+            <td class="data-cell">07.31.18</td>
+            <td class="data-cell">Winspear Opera House</td>
+            <td class="data-cell">Dallas, TX</td>
+            <td class="data-cell tickets">tickets</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <%- include components/footer.html %>
+  </body>
+</html>
