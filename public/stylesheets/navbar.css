@@ -1,0 +1,70 @@
+/*navbar.css*/
+nav{
+    height: 90px;
+    width: 100%;
+    background-color: #e2e2e2;
+    position: relative;
+    display: table;
+    top: 0px;
+    position: sticky;
+    z-index: 5;
+}
+
+li{
+  list-style-type:none;
+}
+
+.site-title-container{
+  float:left;
+}
+
+.navbar-content{
+  width: 1024px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  margin: auto;
+  display: table;
+
+}
+
+.site-title{
+  font-family: ibm plex mono;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 45px;
+}
+.navbar-items-container{
+  float:right;
+}
+.navbar-item-container{
+  margin-left:15px;
+  display:inline;
+}
+.navbar-item{
+  font-family: dosis;
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+
+@media (min-width:320px){
+  .navbar-content{
+    width: 320px;  
+  }
+}
+@media (min-width:480px){
+  .navbar-content{
+    width: 480px;  
+  }
+}
+@media (min-width:768px){
+  .navbar-content{
+    width: 768px;  
+  }
+}
+@media (min-width:1024px){
+.navbar-content{
+  width: 1024px;  
+}

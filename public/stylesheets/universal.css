@@ -1,0 +1,176 @@
+@font-face{
+  font-family: Dosis;
+  font-weight:200;
+  src: url("/fonts/music fonts/Dosis/Dosis-ExtraLight.ttf")format("truetype");
+}
+@font-face{
+  font-family: Dosis;
+  font-weight:300;
+  src: url("/fonts/music fonts/Dosis/Dosis-Light.ttf")format("truetype");
+}
+@font-face{
+  font-family: Dosis;
+  font-weight:400;
+  src: url("/fonts/music fonts/Dosis/Dosis-Regular.ttf")format("truetype");
+}
+@font-face{
+  font-family: Dosis;
+  font-weight:500;
+  src: url("/fonts/music fonts/Dosis/Dosis-SemiBold.ttf")format("truetype");
+}
+@font-face{
+  font-family: Dosis;
+  font-weight:700;
+  src: url("/fonts/music fonts/Dosis/Dosis-Bold.ttf")format("truetype");
+}
+@font-face{
+  font-family: Dosis;
+  font-weight:900;
+  src: url("/fonts/music fonts/Dosis/Dosis-ExtraBold.ttf")format("truetype");
+}
+
+@font-face{
+  font-family:IBM Plex Mono;
+  font-weight:100;
+  src: url("/fonts/music fonts/IBM_Plex_Mono/IBMPlexMono-Thin.ttf")format("truetype");
+}
+@font-face{
+  font-family:IBM Plex Mono;
+  font-weight:100;
+  font-style:italic;
+  src: url("/fonts/music fonts/IBM_Plex_Mono/IBMPlexMono-ThinItalic.ttf")format("truetype");
+}
+
+@font-face{
+  font-family:IBM Plex Mono;
+  font-weight:200;
+  src: url("/fonts/music fonts/IBM_Plex_Mono/IBMPlexMono-ExtraLight.ttf")format("truetype");
+}
+@font-face{
+  font-family:IBM Plex Mono;
+  font-weight:200;
+  font-style:italic;
+  src: url("/fonts/music fonts/IBM_Plex_Mono/IBMPlexMono-ExtraLightItalic.ttf")format("truetype");
+}
+
+@font-face{
+  font-family:IBM Plex Mono;
+  font-weight:200;
+  src: url("/fonts/music fonts/IBM_Plex_Mono/IBMPlexMono-ExtraLight.ttf")format("truetype");
+}
+
+@font-face{
+  font-family:IBM Plex Mono;
+  font-weight:200;
+  font-style:italic;
+  src: url("/fonts/music fonts/IBM_Plex_Mono/IBMPlexMono-ExtraLightItalic.ttf")format("truetype");
+}
+
+@font-face{
+  font-family:IBM Plex Mono;
+  font-weight:300;
+  src: url("/fonts/music fonts/IBM_Plex_Mono/IBMPlexMono-Light.ttf")format("truetype");
+}
+
+@font-face{
+  font-family:IBM Plex Mono;
+  font-weight:300;
+  font-style:italic;
+  src: url("/fonts/music fonts/IBM_Plex_Mono/IBMPlexMono-LightItalic.ttf")format("truetype");
+}
+
+
+@font-face{
+  font-family:IBM Plex Mono;
+  font-weight:400;
+  src: url("/fonts/music fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf")format("truetype");
+}
+
+@font-face{
+  font-family:IBM Plex Mono;
+  font-weight:400;
+  font-style:italic;
+  src: url("/fonts/music fonts/IBM_Plex_Mono/IBMPlexMono-Italic.ttf")format("truetype");
+}
+
+
+@font-face{
+  font-family:IBM Plex Mono;
+  font-weight:500;
+  src: url("/fonts/music fonts/IBM_Plex_Mono/IBMPlexMono-Medium.ttf")format("truetype");
+}
+
+@font-face{
+  font-family:IBM Plex Mono;
+  font-weight:500;
+  font-style:italic;
+  src: url("/fonts/music fonts/IBM_Plex_Mono/IBMPlexMono-MediumItalic.ttf")format("truetype");
+}
+
+@font-face{
+  font-family:IBM Plex Mono;
+  font-weight:600;
+  src: url("/fonts/music fonts/IBM_Plex_Mono/IBMPlexMono-SemiBold.ttf")format("truetype");
+}
+
+@font-face{
+  font-family:IBM Plex Mono;
+  font-weight:600;
+  font-style:italic;
+  src: url("/fonts/music fonts/IBM_Plex_Mono/IBMPlexMono-SemiBoldItalic.ttf")format("truetype");
+}
+
+@font-face{
+  font-family:IBM Plex Mono;
+  font-weight:800;
+  src: url("/fonts/music fonts/IBM_Plex_Mono/IBMPlexMono-Bold.ttf")format("truetype");
+}
+
+@font-face{
+  font-family:IBM Plex Mono;
+  font-weight:800;
+  font-style:italic;
+  src: url("/fonts/music fonts/IBM_Plex_Mono/IBMPlexMono-BoldItalic.ttf")format("truetype");
+}
+
+body{
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.footer-triangle{
+  width: 0;
+  height: 0;
+  border-left: 45px solid transparent;
+  border-right: 45px solid transparent;
+  border-bottom: 90px solid #012e08;
+  display: inline;
+  /* top: -18px; */
+  position: relative;
+  float: left;
+}
+
+.footer-triangle-upside{
+  width: 0;
+  height: 0;
+  border-left: 45px solid transparent;
+  border-right: 45px solid transparent;
+  border-top: 90px solid #012e08;
+  display: inline;
+  /* top: 91px; */
+  position: relative;
+  float: left;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li{
+  margin:0px;
+  padding:0px;
+}
+
+.color-black-1{
+  color:#1c1c1c;
+}
+

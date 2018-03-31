@@ -1,0 +1,31 @@
+footer{
+  background-color:#e2e2e2;
+}
+
+.footer{
+  height:90px;
+  padding-left:30px;
+  padding-right:30px;
+}
+
+@media (min-width:320px){
+  .footer{
+    width:320px;
+  }  
+}
+@media (min-width:480px){
+  .footer{
+    width:480px;
+  }  
+}
+@media (min-width:768px){
+  .footer{
+    width:768px;
+  }  
+}
+@media (min-width:992px){
+  .footer{
+    width:992px;
+  }  
+}
+
