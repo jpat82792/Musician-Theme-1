@@ -86,6 +86,7 @@ footer{
     position: relative;
     top: 5px;
     width:100%;
+    text-align:center;
   }
   .footer-site-title {
       display:none;
@@ -126,6 +127,7 @@ footer{
     position: relative;
     top: 5px;
     width:auto;
+    text-align:left;
   }
 }
 @media (min-width:768px){
