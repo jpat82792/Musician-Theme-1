@@ -15,7 +15,9 @@ li{
 }
 
 .site-title-container{
-  float:left;
+    float: left;
+    position: relative;
+    top: 10px;
 }
 
 .navbar-content{
@@ -36,6 +38,8 @@ li{
 }
 .navbar-items-container{
   float:right;
+  position:relative;
+  top:20px;
 }
 .navbar-item-container{
   margin-left:15px;
@@ -46,6 +50,8 @@ li{
   font-weight: 400;
   font-size: 30px;
   text-transform: capitalize;
+  text-decoration: none;  
+  color:#1c1c1c;
 }
 
 

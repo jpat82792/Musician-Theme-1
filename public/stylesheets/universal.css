@@ -180,3 +180,13 @@ h1, h2, h3, h4, h5, h6, ul, li{
   color:#1c1c1c;
 }
 
+.modal-container{
+  display:none;
+}
+
+.active-modal{
+  display:block;
+}
+
+
+
