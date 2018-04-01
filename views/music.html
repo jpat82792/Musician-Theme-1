@@ -8,8 +8,10 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/music.css" />
   </head>
   <body>
-    <%- include components/navbar-modal.html%>
+    <%- include components/navbar-modal.html %>
+    <%- include components/music-modal.html %>
     <%- include components/navbar.html %>
+
     <div class="main-container">
       <div class="main-content-container">
         <h1 class="music-title">
@@ -53,5 +55,6 @@
       </div>
     </div>
     <%- include components/footer.html %>
+    <script src="javascripts/musicModalController.js"></script>
   </body>
 </html>
