@@ -1,0 +1,60 @@
+/*music.css*/
+
+.music-title{
+  text-align: center;
+  font-family: ibm plex mono;
+  font-style: italic;
+  font-size: 100px;
+  font-weight: 500;
+  margin-bottom: 90px;
+  margin-top:90px;
+}
+
+.albums{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
+
+.album{
+  width:301px;
+  height:auto;
+}
+.album-cover{
+  width:100%;
+}
+
+.album-title{
+  text-align: center;
+  font-family: ibm plex mono;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.album-description-preview{
+  font-size: 25px;
+  font-family: dosis;
+  font-weight: 400;
+}
+
+@media (min-width:320px){
+.album{
+  width:100%;
+  margin-bottom:30px
+}
+}
+@media (min-width:480px){}
+@media (min-width:768px){
+.album{
+  width:339px;
+}
+}
+@media (min-width:1024px){
+.albums{
+  justify-content: space-between;
+}
+.album{
+  width:301px;
+}
+}

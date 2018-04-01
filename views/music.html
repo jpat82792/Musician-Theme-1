@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/universal.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/navbar.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/footer.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/music.css" />
+  </head>
+  <body>
+    <%- include components/navbar-modal.html%>
+    <%- include components/navbar.html %>
+    <div class="main-container">
+      <div class="main-content-container">
+        <h1 class="music-title">
+          Music
+        </h1>
+        <section class="albums">
+          <div class="album">
+            <img class="album-cover" src="images/albums/process.jpg" >
+            <h3 class="album-title">
+              Process
+            </h3>
+            <article class="album-description-preview">
+              Artollo’s first album was released to 
+              widespread critical acclaim. Mixing a 
+              broad swath of influences Artollo ...
+            </article>
+          </div>
+          <div class="album">
+            <img class="album-cover" src="images/albums/Heights.jpg" >
+            <h3 class="album-title">
+              Heights
+            </h3>
+            <article class="album-description-preview">
+              Artollo created a small apartment 
+              studio as the top of a skyscraper to 
+              record Heights. Heights explores the ...
+            </article>
+          </div>
+          <div class="album">
+            <img class="album-cover" src="images/albums/inside.jpg" >
+            <h3 class="album-title">
+              Inside EP
+            </h3>
+            <article class="album-description-preview">
+              Inside EP is the most visceral Artollo
+              project to date. This EP is a tiny explo-
+              ration of combining Romantic Era ...
+            </article>
+          </div>
+        </section>
+      </div>
+    </div>
+    <%- include components/footer.html %>
+  </body>
+</html>

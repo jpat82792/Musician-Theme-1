@@ -32,6 +32,11 @@
 
 .tickets-column{
   text-transform:uppercase;
+  font-weight: 600;
+}
+
+.sold-out{
+  text-decoration:underline;
 }
 
 

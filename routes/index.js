@@ -11,5 +11,8 @@ router.get('/us', function(req, res, next){
 router.get('/shows', function(req, res, next){
   res.render('shows.html', {});
 });
+router.get('/music', function(req, res, next){
+  res.render('music.html', {});
+});
 
 module.exports = router;
