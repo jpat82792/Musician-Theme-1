@@ -44,33 +44,9 @@ footer{
 }
 
 /*START music modal styles*/
-.standalone-modal-background{
-  background-color: #00000050;
-  width:100%;
-  height:100%;
-}
 
-.close-modal-button{
-  font-size: 50px;
-  float: right;
-  top: 0px;
-  position: relative;
-  left: -30px;
-}
 
-.modal-content-container{
-  display:none;
-  position: fixed;
-  z-index: 100;
-  width: 100%;
-  height: 100%;
-}
 
-.standalone-modal-content{
-  margin: auto;
-  background-color:white;
-  padding-bottom:30px;
-}
 
 .album-modal-image{
   width:50%;
@@ -119,10 +95,7 @@ footer{
   width:100%;
   margin-bottom:30px
 }
-.standalone-modal-content{
-  width:100%;
-  height:100%;
-}
+
 .album-td{
   font-size:20px;
 }
@@ -145,15 +118,11 @@ footer{
   .album-modal-image{
     width:50%;
   }
-  .standalone-modal-content{
-    height:auto;
-  }
+
 .album{
   width:339px;
 }
-.standalone-modal-content{
-  width:768px;
-}
+
 }
 @media (min-width:1024px){
 .albums{
@@ -162,9 +131,7 @@ footer{
 .album{
   width:301px;
 }
-.standalone-modal-content{
-  width:1024px;
-}
+
 footer{
   position:absolute;
   bottom:0px;

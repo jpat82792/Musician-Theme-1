@@ -1,0 +1,26 @@
+.unsub-link{
+  position: relative;
+  left: -92px;
+  font-family: dosis;
+  font-weight: 400;
+  font-size: 20px;
+}
+.unsub-link-container{
+
+}
+.newsletter-header{}
+@media (min-width:320px){
+  .newsletter-header{
+    font-size:35px;
+  }
+}
+@media (min-width:480px){
+  .newsletter-header{
+    font-size:45px;
+  }
+}
+@media (min-width:768px){
+  .newsletter-header{
+    font-size:60px;
+  }
+}

@@ -1,0 +1,67 @@
+.modal-title{
+  text-align: center;
+  font-family: ibm plex mono;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 60px;
+}
+
+.modal-description{
+  font-family: dosis;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  width: 260px;
+  margin: auto;
+  text-align: left;
+}
+
+.modal-input{
+  display: block;
+  width: 260px;
+  margin: auto;
+  border: none;
+  outline: none;
+  border: 1px solid #1c1c1c;
+  height: 30px;
+  margin-bottom: 15px;
+  margin-top:15px;
+  font-family: dosis;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.modal-textarea{
+  display: block;
+  width: 260px;
+  margin: auto;
+  border: none;
+  outline: none;
+  border: 1px solid #1c1c1c;
+  height: 90px;
+  margin-bottom: 15px;
+  font-family: dosis;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.submit-button{
+
+}
+
+.submit-button-text{
+
+}
+
+@media (min-width:320px){
+  .modal-title{
+    font-size:45px;
+  }
+}
+@media (min-width:480px){
+.modal-title{
+  font-size:60px;
+}
+}
+@media (min-width:768px){}
+@media (min-width:1024px){}

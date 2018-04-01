@@ -19,15 +19,6 @@ var initUi = function(){
   }
 }
 
-var toggleModal = function(modal){
-  console.log("toggleModal");
-  console.log(modal.classList);
-  if(modal.classList.contains('active-modal')){
-    modal.classList.remove('active-modal');
-  }
-  else{
-    modal.classList.add('active-modal');
-  }
-}
+
 
 initUi();
