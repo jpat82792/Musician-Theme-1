@@ -46,11 +46,28 @@
 }
 
 .submit-button{
-
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0px;
+  width: 0;
+  height: 0;
+  border-left: 90px solid #012e08;
+  border-top: 45px solid transparent;
+  border-bottom: 45px solid transparent;
+  left: 90px;
+  position: relative; 
+  margin-top:30px;
 }
 
 .submit-button-text{
-
+font-size: 25px;
+    font-family: dosis;
+    font-weight: 500;
+    left: -84px;
+    position: relative;
+    top: -15px;
+    color: white;
 }
 
 @media (min-width:320px){
