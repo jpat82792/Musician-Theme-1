@@ -106,8 +106,14 @@ footer{
 footer{
   position:relative;
 }
+.music-title{
+  font-size:75px;
+}
 }
 @media (min-width:480px){
+.music-title{
+  font-size:100px;
+}
   .album-td{
     font-size:25px;
   }

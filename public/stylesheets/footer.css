@@ -49,21 +49,6 @@ footer{
   text-transform: capitalize;
 }
 
-.option-bar{
-  width: 30px;
-  height: 2px;
-  background-color: #fff;
-  display: block;
-  margin-top: 10px;
-}
-
-.options-menu{
-  display: block;
-  float: right;
-  position: relative;
-  top: 15px;
-}
-
 @media (min-width:320px){
   .footer{
     width:260px;
