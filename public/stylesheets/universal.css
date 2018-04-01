@@ -151,6 +151,7 @@ body{
   /* top: -18px; */
   position: relative;
   float: left;
+  padding:0px;
 }
 
 .footer-triangle-upside{
@@ -163,6 +164,7 @@ body{
   /* top: 91px; */
   position: relative;
   float: left;
+  padding:0px;
 }
 
 
@@ -208,13 +210,15 @@ width: 0;
     float: left;
     left: 41%;
     margin-bottom: 90px;
+  padding:0px;
+  margin-top:60px;
 }
 
 
 .more-button-text{
   top: -130px;
   position: relative;
-  left: -32px;
+  left: -35px;
   font-family: dosis;
   font-size: 30px;
   color: white;
