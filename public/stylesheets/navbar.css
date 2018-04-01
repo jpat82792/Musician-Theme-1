@@ -11,6 +11,21 @@ nav{
     border-bottom: solid 2px #012e08;
 
 }
+.option-bar{
+  width: 30px;
+  height: 2px;
+  background-color: #012e08;
+  display: block;
+  margin-top: 10px;
+}
+
+.options-menu{
+  display: block;
+  float: right;
+  position: relative;
+  top: 15px;
+}
+
 
 li{
   list-style-type:none;
