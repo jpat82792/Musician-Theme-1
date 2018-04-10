@@ -1,5 +1,7 @@
+@import "universal";
+
 footer{
-  background-color: #e2e2e2;
+  background-color: @color-gray-1;
   float: left;
   width: 100%;
 }
@@ -12,13 +14,11 @@ footer{
 }
 
 .footer-site-title{
-  font-family: ibm plex mono;
+  .font-ibm-300i;
   float: left;
-  font-weight: 300;
   font-size: 45px;
   top:15px;
   position:relative;
-  font-style: italic;
   text-transform: capitalize;
 }
 
@@ -41,8 +41,7 @@ footer{
 
 .footer-button{
   float: left;
-  font-family: dosis;
-  font-weight: 400;
+  .font-dosis-400;
   font-size: 30px;
   text-transform: capitalize;
 }
@@ -94,13 +93,11 @@ footer{
 }
 .footer-site-title {
     display:block;
-    font-family: ibm plex mono;
+    .font-ibm-300i;
     float: left;
-    font-weight: 300;
     font-size: 45px;
     top: 0px;
     position: relative;
-    font-style: italic;
     text-transform: capitalize;
     width: 100%;
     text-align: center;
@@ -134,46 +131,40 @@ footer{
     width:708px;
   }  
   .footer-site-title {
-      font-family: ibm plex mono;
-      float: left;
-      font-weight: 300;
-      font-size: 45px;
-      position: relative;
-      font-style: italic;
-      text-transform: capitalize;
-      left: 112px;
-      top:0px;
-      text-align:left;
-      width:auto;
+    .font-ibm-300i;
+    float: left;
+    font-size: 45px;
+    position: relative;
+    text-transform: capitalize;
+    left: 112px;
+    top:0px;
+    text-align:left;
+    width:auto;
   }
-.right-side-container {
-    /* float: right; */
+  .right-side-container {
     top: -7px;
     position: relative;
     float: left;
     left: 30px;
-}
+  }
 }
 @media (min-width:1024px){
   .footer{
     width:964px;
   }  
-.right-side-container{
-  float:right;
-  top:25px;
-  position:relative;
-  left:0px;
-}
+  .right-side-container{
+    float:right;
+    top:25px;
+    position:relative;
+    left:0px;
+  }
   .footer-site-title{
-    font-family: ibm plex mono;
+    .font-ibm-300i;
     float: left;
-    font-weight: 300;
     font-size: 45px;
     top:15px;
     position:relative;
     left:0px;
-    font-style: italic;
     text-transform: capitalize;
   }
 }
-
