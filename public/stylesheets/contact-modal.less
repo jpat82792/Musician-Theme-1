@@ -1,0 +1,83 @@
+@import "universal";
+
+.modal-title{
+  .font-ibm-500i;  
+  text-align: center;
+  font-size: 60px;
+}
+
+.modal-description{
+  .font-dosis-400;
+  font-size: 25px;
+  margin-bottom: 30px;
+  width: 260px;
+  margin: auto;
+  text-align: left;
+}
+
+.modal-input{
+  display: block;
+  width: 260px;
+  margin: auto;
+  border: none;
+  outline: none;
+  border: 1px solid @color-black-1;
+  height: 30px;
+  margin-bottom: 15px;
+  margin-top:15px;
+  .font-dosis-400;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.modal-textarea{
+  display: block;
+  width: 260px;
+  margin: auto;
+  border: none;
+  outline: none;
+  border: 1px solid @color-black-1;
+  height: 90px;
+  margin-bottom: 15px;
+  .font-dosis-400;
+  font-family: dosis;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.submit-button{
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0px;
+  width: 0;
+  height: 0;
+  border-left: 90px solid @color-accent;
+  border-top: 45px solid transparent;
+  border-bottom: 45px solid transparent;
+  left: 90px;
+  position: relative; 
+  margin-top:30px;
+}
+
+.submit-button-text{
+  font-size: 25px;
+  .font-dosis-500;
+  left: -84px;
+  position: relative;
+  top: -15px;
+  color: white;
+}
+
+@media (min-width:320px){
+  .modal-title{
+    font-size:45px;
+  }
+}
+@media (min-width:480px){
+.modal-title{
+  font-size:60px;
+}
+}
+@media (min-width:768px){}
+@media (min-width:1024px){}

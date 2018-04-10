@@ -1,0 +1,247 @@
+/*music.css*/
+
+@import "universal";
+
+.music-title{
+  text-align: center;
+  .font-ibm-500i;
+  font-size: 100px;
+  margin-bottom: 90px;
+  margin-top:90px;
+}
+
+.albums{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+
+}
+
+.album{
+  width:301px;
+  height:auto;
+  cursor:pointer;
+  position:relative;
+}
+.album-cover{
+  width:100%;
+}
+
+.album-title{
+  .font-ibm-500i;
+  text-align: center;
+  font-size: 30px;
+}
+
+.album-description-preview{
+  font-size: 25px;
+  .font-dosis-400;
+}
+
+footer{
+  position:absolute;
+  bottom:0px;
+}
+
+/*START music modal styles*/
+
+
+
+
+.album-modal-image{
+  width:50%;
+  margin:auto;
+}
+
+.centered-content{
+  text-align:center;
+  padding-left:30px;
+  padding-right:30px;
+  top: 0px;
+  bottom: 0px;
+  position:relative;
+}
+
+.album-description{
+  text-align:left;
+  font-size:25px;
+  .font-dosis-400;
+  margin-bottom:30px;
+}
+
+.album-table{
+  border-collapse:collapse;
+  width:100%;
+}
+
+.album-table-header{
+  border-bottom: 2px solid @color-accent;
+}
+.album-td{
+  .font-dosis-400;
+  background-color: @color-gray-1;
+  font-size: 25px;
+  padding:5px;
+}
+
+.active-song{
+  background-color: @color-gray-2;
+}
+.active-modal{
+  display:block;
+}
+
+.modal-play-button{
+width: 60px;
+    position: absolute;
+    height: 60px;
+    border: none;
+    outline: none;
+    background: none;
+    border-radius: 30px;
+    background-color: #e2e2e250;
+    top: 391px;
+    left: 649px;
+}
+
+.modal-play-icon-left{
+  position: relative;
+  width: 6px;
+  height: 22px;
+  background-color: @color-accent;
+  top: 12px;
+  left: 15px;
+}
+
+.modal-play-icon-right{
+  width: 6px;
+  height: 22px;
+  background-color: @color-accent;
+  top: -10px;
+  position: relative;
+  left: 28px;
+}
+
+/*END music modal styles*/
+.play-button{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  background-color: #e2e2e280;
+  padding:0px;
+  top:225px;
+  left:225px;
+}
+
+.play-icon{
+  position: relative;
+  width: 0px;
+  height: 0px;
+  border-left: 20px solid @color-accent;
+  border-top:10px solid transparent;
+  border-bottom:10px solid transparent;
+  left:23px
+}
+
+@media (min-width:320px){
+.album{
+  width:100%;
+  margin-bottom:30px;
+}
+
+.album-td{
+  font-size:20px;
+}
+.album-modal-image{
+  width:260px;
+}
+footer{
+  position:relative;
+}
+.music-title{
+  font-size:75px;
+}
+  .centered-content{
+    position:fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  }
+.modal-play-button {
+    top: 191px;
+    right: 23%;
+    left: auto;
+}
+.play-button{
+  top:183px;
+  left:183px;
+}
+
+
+}
+@media (min-width:480px){
+.music-title{
+  font-size:100px;
+}
+  .album-td{
+    font-size:25px;
+  }
+  .album-modal-image{
+    width:390px;
+  }
+  .modal-play-button{
+    top: 315px;
+    right: 26%;
+    left: auto;
+  }
+.play-button{
+  top:339px;
+  left:339px;
+}
+
+}
+@media (min-width:768px){
+  .centered-content{
+    position:relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .album-modal-image{
+    width:50%;
+  }
+
+.album{
+  width:339px;
+}
+  .modal-play-button{
+    top: 267px;
+    left: 464px;
+  }
+.play-button{
+  top:260px;
+  left:260px;
+}
+
+}
+@media (min-width:1024px){
+.albums{
+  justify-content: space-between;
+}
+.album{
+  width:301px;
+}
+
+footer{
+  position:absolute;
+  bottom:0px;
+}
+  .modal-play-button{
+    top: 391px;
+    left: 649px;
+  }
+.play-button{
+  top:225px;
+  left:225px;
+}
+}
